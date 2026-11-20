@@ -1,0 +1,92 @@
+export const SERVICES = [
+  {
+    slug: 'residential-interior-design',
+    icon: 'House',
+    title: 'Residential Interior Design',
+    short: 'Apartments, villas and penthouses designed around the way you live.',
+    description:
+      'From a single apartment to a multi-storey villa, we design homes that feel calm, personal and quietly luxurious. We begin with how you live — your routines, your guests, your collections — and shape layouts, materials and lighting around that.',
+    includes: [
+      'Concept development and mood boards',
+      '3D visualisation of key spaces',
+      'Furniture, joinery and lighting design',
+      'Material and finish selection',
+      'Styling and final installation',
+    ],
+    idealFor: 'New homes, apartments, villas and full-home makeovers.',
+    image: '/images/service-residential.svg',
+    imageAlt: 'Elegant living room with a slatted feature wall, deep sofa and tall windows',
+  },
+  {
+    slug: 'commercial-interior-design',
+    icon: 'Building2',
+    title: 'Commercial Interior Design',
+    short: 'Offices, retail and hospitality spaces that express your brand.',
+    description:
+      'Commercial interiors must perform as well as they photograph. We design workplaces, boutiques, clinics and hospitality spaces that reflect your brand, support your people and stand up to daily use.',
+    includes: [
+      'Brand-led spatial concepts',
+      'Workplace and customer-journey planning',
+      'Furniture and fixture specification',
+      'Coordination of approvals and consultants',
+      'Phased fit-out management',
+    ],
+    idealFor: 'Offices, showrooms, boutiques, clinics, cafés and boutique hotels.',
+    image: '/images/service-commercial.svg',
+    imageAlt: 'Contemporary open-plan office with glass partitions and warm lighting',
+  },
+  {
+    slug: 'modular-kitchen-design',
+    icon: 'ChefHat',
+    title: 'Modular Kitchen Design',
+    short: 'Beautifully engineered kitchens that work as hard as they look.',
+    description:
+      'A great kitchen begins with how you cook. We plan ergonomic layouts, choose durable finishes and integrate hardware and appliances so that your kitchen is easy to use, easy to clean and a pleasure to be in.',
+    includes: [
+      'Ergonomic layouts and work-triangle planning',
+      'Carcass, shutter and worktop finishes',
+      'Hardware and appliance integration',
+      'Lighting and electrical planning',
+      'Factory-finished units and on-site installation',
+    ],
+    idealFor: 'New kitchens, kitchen upgrades and open-plan kitchen-dining spaces.',
+    image: '/images/service-kitchen.svg',
+    imageAlt: 'Modern kitchen with a fluted island, pendant lights and a statement hood',
+  },
+  {
+    slug: 'space-planning',
+    icon: 'PencilRuler',
+    title: 'Space Planning',
+    short: 'Smart layouts that unlock the full potential of your property.',
+    description:
+      'Good design starts with a good plan. We study your space, measure carefully and test multiple layout options for flow, light, storage and furniture, so that every square foot earns its place.',
+    includes: [
+      'Measured site survey',
+      'Circulation and zoning studies',
+      'Furniture and storage layouts',
+      'Two to three layout options for comparison',
+      'Vastu-considerate options on request',
+    ],
+    idealFor: 'Homes and offices at the planning stage, or spaces that feel cramped or awkward.',
+    image: '/images/service-planning.svg',
+    imageAlt: 'Architectural floor plan showing rooms, furniture layouts and dimension lines',
+  },
+  {
+    slug: 'renovation-services',
+    icon: 'Hammer',
+    title: 'Renovation Services',
+    short: 'Thoughtful upgrades and restorations, managed from start to finish.',
+    description:
+      'Renovation rewards careful planning. We assess the condition of your space, coordinate structural, electrical and plumbing work, and manage the site so that your home or workplace is upgraded with minimal disruption.',
+    includes: [
+      'Condition assessment and scope planning',
+      'Structural, electrical and plumbing coordination',
+      'Material and fittings upgrades',
+      'Single point site supervision',
+      'Clear schedules and progress updates',
+    ],
+    idealFor: 'Older homes, apartment remodels, heritage buildings and refurbished offices.',
+    image: '/images/service-renovation.svg',
+    imageAlt: 'Renovated dining room with warm clay tones, panelled walls and a chandelier',
+  },
+];

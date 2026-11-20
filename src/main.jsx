@@ -1,0 +1,17 @@
+import React from 'react';
+import { createRoot } from 'react-dom/client';
+import { BrowserRouter } from 'react-router-dom';
+import { MotionConfig } from 'framer-motion';
+import App from './App.jsx';
+import './styles/global.css';
+
+createRoot(document.getElementById('root')).render(
+  <React.StrictMode>
+    <BrowserRouter>
+      {/* Respect the visitor's "reduce motion" operating-system setting */}
+      <MotionConfig reducedMotion="user">
+        <App />
+      </MotionConfig>
+    </BrowserRouter>
+  </React.StrictMode>
+);
